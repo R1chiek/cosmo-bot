@@ -1,1 +1,1 @@
-worker python cosmo-bot.py
+worker: python cosmo-bot.py
