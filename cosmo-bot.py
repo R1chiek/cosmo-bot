@@ -25,7 +25,7 @@ def read_chat_urls(file_path):
 source_chat_urls = read_chat_urls('source_chat.txt')
 target_chat_urls = read_chat_urls('target_chats.txt')
 
-photo_message_id = 3
+photo_message_id = 5
 alternative_message_id = 2
 
 async def main():
@@ -63,4 +63,7 @@ async def main():
                 await asyncio.sleep(1)  # Задержка перед отправкой следующего сообщения
 
             await asyncio.sleep(3600)  # Задержка перед следующим циклом
+            
+logging.info(f'скрипт закончил работу')
+
 asyncio.run(main())
