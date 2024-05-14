@@ -213,3 +213,12 @@
 2024-05-14 15:22:55,568 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
 2024-05-14 15:22:56,282 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
 2024-05-14 15:22:56,283 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-05-14 15:27:38,125 - INFO - скрипт закончил работу
+2024-05-14 15:27:42,633 - INFO - скрипт закончил работу
+2024-05-14 15:28:43,528 - INFO - скрипт закончил работу
+2024-05-14 15:28:43,531 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-05-14 15:28:43,570 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-05-14 15:28:44,909 - INFO - Ошибка при доступе к каналу или чату https://t.me/reklama_ResourceNET: RPCError 400: TOPIC_CLOSED (caused by ForwardMessagesRequest)
+2024-05-14 15:28:44,909 - INFO - Ошибка при доступе к каналу или чату https://t.me/reklama_ResourceNET/84968: Cannot find any entity corresponding to "https://t.me/reklama_ResourceNET/84968"
+2024-05-14 15:30:27,189 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-05-14 15:30:27,189 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!

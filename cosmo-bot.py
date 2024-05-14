@@ -2,6 +2,7 @@ import asyncio
 from telethon import TelegramClient, errors
 import logging
 
+
 # Настройка логгирования
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -13,8 +14,8 @@ file_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(mes
 # Добавление файла лога в логгер
 logging.getLogger('').addHandler(file_handler)
 
-api_id = 'your_api_id'  # Ваш API ID
-api_hash = 'your_api_hash'  # Ваш API Hash
+api_id = '23538569'  # Ваш API ID
+api_hash = '1c7d17a813d63199ff41ee4b46e22a50'  # Ваш API Hash
 
 # Чтение ссылок на исходный чат и целевые чаты из текстовых файлов
 def read_chat_urls(file_path):
@@ -26,13 +27,6 @@ target_chat_urls = read_chat_urls('target_chats.txt')
 
 photo_message_id = 5
 alternative_message_id = 2
-
-# Функция для извлечения username и message_id из ссылки
-def parse_message_link(link):
-    parts = link.split('/')
-    username = parts[-2]
-    message_id = int(parts[-1])
-    return username, message_id
 
 async def main():
     client = TelegramClient('anon', api_id, api_hash)
@@ -47,44 +41,28 @@ async def main():
         while True:  # Внешний бесконечный цикл
             for target_chat_url in target_chat_urls:  # Внутренний цикл перебора чатов
                 try:
-                    if "/branches/" in target_chat_url:  # Якщо це посилання на гілку
-                        branch_entity = await client.get_entity(target_chat_url)
+                    target_chat = await client.get_entity(target_chat_url)
+                    try:
+                        await client.forward_messages(target_chat, photo_message_id, source_chat)
+                        logging.info(f'Фото с ID {photo_message_id} успешно отправлено в {target_chat.title}.')
+                    except errors.SlowModeWaitError as e:
+                        logging.info(f'Необходимо подождать {e.seconds} секунд прежде чем отправить следующее сообщение в {target_chat.title}.')
+                        continue  # Переход к следующему чату
+                    except errors.ForbiddenError:
                         try:
-                            await client.forward_messages(branch_entity, photo_message_id, source_chat)
-                            logging.info(f'Фото с ID {photo_message_id} успешно отправлено в {branch_entity.title}.')
-                        except errors.SlowModeWaitError as e:
-                            logging.info(f'Необходимо подождать {e.seconds} секунд прежде чем отправить следующее сообщение в {branch_entity.title}.')
-                            continue  # Переход к следующему чату
-                        except errors.ForbiddenError:
-                            try:
-                                await client.forward_messages(branch_entity, alternative_message_id, source_chat)
-                                logging.info(f'Альтернативное сообщение с ID {alternative_message_id} успешно отправлено в {branch_entity.title}.')
-                            except Exception as e:
-                                logging.info(f'Ошибка при отправке альтернативного сообщения в {branch_entity.title}: {e}')
-                        except errors.ChannelPrivateError:
-                            logging.info(f'Канал или чат {target_chat_url} является приватным или нет доступа.')
-                            continue  # Переход к следующему чату
-                    else:  # Якщо це посилання на чат
-                        target_chat = await client.get_entity(target_chat_url)
-                        try:
-                            await client.forward_messages(target_chat, photo_message_id, source_chat)
-                            logging.info(f'Фото с ID {photo_message_id} успешно отправлено в {target_chat.title}.')
-                        except errors.SlowModeWaitError as e:
-                            logging.info(f'Необходимо подождать {e.seconds} секунд прежде чем отправить следующее сообщение в {target_chat.title}.')
-                            continue  # Переход к следующему чату
-                        except errors.ForbiddenError:
-                            try:
-                                await client.forward_messages(target_chat, alternative_message_id, source_chat)
-                                logging.info(f'Альтернативное сообщение с ID {alternative_message_id} успешно отправлено в {target_chat.title}.')
-                            except Exception as e:
-                                logging.info(f'Ошибка при отправке альтернативного сообщения в {target_chat.title}: {e}')
-                        except errors.ChannelPrivateError:
-                            logging.info(f'Канал или чат {target_chat_url} является приватным или нет доступа.')
-                            continue  # Переход к следующему чату
+                            await client.forward_messages(target_chat, alternative_message_id, source_chat)
+                            logging.info(f'Альтернативное сообщение с ID {alternative_message_id} успешно отправлено в {target_chat.title}.')
+                        except Exception as e:
+                            logging.info(f'Ошибка при отправке альтернативного сообщения в {target_chat.title}: {e}')
+                    except errors.ChannelPrivateError:
+                        logging.info(f'Канал или чат {target_chat_url} является приватным или нет доступа.')
+                        continue  # Переход к следующему чату
                 except Exception as e:
                     logging.info(f'Ошибка при доступе к каналу или чату {target_chat_url}: {e}')
                 
-            await asyncio.sleep(3600)  # Задержка перед следующим циклом
+                
+
+            await asyncio.sleep(1800)  # Задержка перед следующим циклом
             
 logging.info(f'скрипт закончил работу')
 
