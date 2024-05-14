@@ -113,3 +113,73 @@
 2024-05-09 11:47:31,027 - INFO - Ошибка при доступе к каналу или чату https://t.me/UkrTG_ads: RPCError 400: TOPIC_CLOSED (caused by ForwardMessagesRequest)
 2024-05-09 11:49:27,816 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
 2024-05-09 11:49:27,816 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-05-14 14:46:32,191 - INFO - скрипт закончил работу
+2024-05-14 14:46:32,205 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-05-14 14:46:32,241 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-05-14 14:46:33,495 - INFO - Необходимо подождать 217 секунд прежде чем отправить следующее сообщение в Біржа Telegram UA.
+2024-05-14 14:46:34,627 - INFO - Необходимо подождать 2921 секунд прежде чем отправить следующее сообщение в TG.UA official БІРЖА.
+2024-05-14 14:46:34,941 - INFO - Фото с ID 5 успешно отправлено в Безкоштовні оголошення Україна.
+2024-05-14 14:46:35,126 - INFO - Необходимо подождать 2924 секунд прежде чем отправить следующее сообщение в БІРЖА КАНАЛІВ_UA.
+2024-05-14 14:46:35,288 - INFO - Необходимо подождать 225 секунд прежде чем отправить следующее сообщение в Біржа Реклами | Продам | Куплю | Адміни | 2 Біржа реклама.
+2024-05-14 14:46:35,431 - INFO - Необходимо подождать 2926 секунд прежде чем отправить следующее сообщение в • БІРЖА • INFOBITME > РЕКЛАМА > ПОСЛУГИ.
+2024-05-14 14:46:35,701 - INFO - Sleeping for 60s (0:01:00) on ForwardMessagesRequest flood wait
+2024-05-14 14:47:17,925 - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2024-05-14 14:47:17,942 - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2024-05-14 14:47:17,943 - INFO - Closing current connection to begin reconnect...
+2024-05-14 14:47:17,944 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-05-14 14:47:17,945 - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2024-05-14 14:47:27,958 - WARNING - Attempt 1 at connecting failed: TimeoutError: 
+2024-05-14 14:47:29,000 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-05-14 14:47:37,092 - INFO - Необходимо подождать 2932 секунд прежде чем отправить следующее сообщение в БІРЖА ТГ (UA).
+2024-05-14 14:47:37,760 - INFO - Фото с ID 5 успешно отправлено в BIRZHa | UA Chat.
+2024-05-14 14:47:37,920 - INFO - Необходимо подождать 2938 секунд прежде чем отправить следующее сообщение в БІРЖА РЕКЛАМИ | TOR.
+2024-05-14 14:47:38,052 - INFO - Необходимо подождать 2939 секунд прежде чем отправить следующее сообщение в Биржа рекламы Украина+.
+2024-05-14 14:47:38,161 - INFO - Необходимо подождать 240 секунд прежде чем отправить следующее сообщение в БІРЖА ТГ (UA).
+2024-05-14 14:47:38,740 - INFO - Фото с ID 5 успешно отправлено в БУК — биржа украинских каналов.
+2024-05-14 14:47:38,887 - INFO - Необходимо подождать 2943 секунд прежде чем отправить следующее сообщение в Біржа реклами UA+.
+2024-05-14 14:47:39,130 - INFO - Фото с ID 5 успешно отправлено в Реклама України | Адміністратори.
+2024-05-14 14:47:39,573 - INFO - Необходимо подождать 246 секунд прежде чем отправить следующее сообщение в ADVERIUM БІРЖА ТГ - (UA).
+2024-05-14 14:47:40,191 - INFO - Необходимо подождать 2950 секунд прежде чем отправить следующее сообщение в Біржа реклами | Україна.
+2024-05-14 14:47:40,808 - INFO - Фото с ID 5 успешно отправлено в Біржа Телеграм Реклами.
+2024-05-14 14:47:40,961 - INFO - Канал или чат https://t.me/red_adsell является приватным или нет доступа.
+2024-05-14 14:47:41,211 - INFO - Фото с ID 5 успешно отправлено в Біржа без обмежень — TeLeAds.
+2024-05-14 14:47:41,325 - INFO - Необходимо подождать 2955 секунд прежде чем отправить следующее сообщение в MADBID - БІРЖА ТГ (UA).
+2024-05-14 14:47:41,611 - INFO - Фото с ID 5 успешно отправлено в Біржа України.
+2024-05-14 14:47:41,611 - INFO - Ошибка при доступе к каналу или чату https://t.me/reklama_ResourceNET/84969: Cannot find any entity corresponding to "https://t.me/reklama_ResourceNET/84969"
+2024-05-14 14:47:41,611 - INFO - Ошибка при доступе к каналу или чату https://t.me/reklama_ResourceNET/84969: Cannot find any entity corresponding to "https://t.me/reklama_ResourceNET/84969"
+2024-05-14 14:47:41,669 - INFO - Ошибка при доступе к каналу или чату http://t.me/+T5ndJQaRPORmNzYy: The chat the user tried to join has expired and is not valid anymore (caused by CheckChatInviteRequest)
+2024-05-14 14:47:41,670 - INFO - Ошибка при доступе к каналу или чату https://t.me/reklama_ResourceNET/84968: Cannot find any entity corresponding to "https://t.me/reklama_ResourceNET/84968"
+2024-05-14 14:47:43,681 - INFO - Необходимо подождать 2965 секунд прежде чем отправить следующее сообщение в Біржа без маргіналів.
+2024-05-14 14:47:44,029 - INFO - Необходимо подождать 267 секунд прежде чем отправить следующее сообщение в БІРЖА ТГ (UA).
+2024-05-14 14:47:44,029 - INFO - Ошибка при доступе к каналу или чату https://t.me/ukrbazaa/93369: Cannot find any entity corresponding to "https://t.me/ukrbazaa/93369"
+2024-05-14 14:47:44,029 - INFO - Ошибка при доступе к каналу или чату https://t.me/ukrbazaa/1: Cannot find any entity corresponding to "https://t.me/ukrbazaa/1"
+2024-05-14 14:47:44,031 - INFO - Ошибка при доступе к каналу или чату https://t.me/ukrbazaa/58451: Cannot find any entity corresponding to "https://t.me/ukrbazaa/58451"
+2024-05-14 14:47:44,031 - INFO - Ошибка при доступе к каналу или чату https://t.me/ukrbazaa/145228: Cannot find any entity corresponding to "https://t.me/ukrbazaa/145228"
+2024-05-14 14:47:44,031 - INFO - Ошибка при доступе к каналу или чату https://t.me/ukrbazaa/136303: Cannot find any entity corresponding to "https://t.me/ukrbazaa/136303"
+2024-05-14 14:47:44,031 - INFO - Ошибка при доступе к каналу или чату https://t.me/ukrbazaa/59680: Cannot find any entity corresponding to "https://t.me/ukrbazaa/59680"
+2024-05-14 14:47:44,031 - INFO - Ошибка при доступе к каналу или чату https://t.me/ukrbazaa/90820: Cannot find any entity corresponding to "https://t.me/ukrbazaa/90820"
+2024-05-14 14:47:44,031 - INFO - Ошибка при доступе к каналу или чату https://t.me/ukrbazaa/58456: Cannot find any entity corresponding to "https://t.me/ukrbazaa/58456"
+2024-05-14 14:47:44,031 - INFO - Ошибка при доступе к каналу или чату https://t.me/ukrbazaa/67345: Cannot find any entity corresponding to "https://t.me/ukrbazaa/67345"
+2024-05-14 14:47:44,031 - INFO - Ошибка при доступе к каналу или чату https://t.me/ukrbazaa/58455: Cannot find any entity corresponding to "https://t.me/ukrbazaa/58455"
+2024-05-14 14:47:44,031 - INFO - Ошибка при доступе к каналу или чату https://t.me/ukrbazaa/58457: Cannot find any entity corresponding to "https://t.me/ukrbazaa/58457"
+2024-05-14 14:47:44,448 - INFO - Фото с ID 5 успешно отправлено в AdsHub для Всіх.
+2024-05-14 14:47:44,717 - INFO - Ошибка при отправке альтернативного сообщения в Служба адмінів України: A wait of 300 seconds is required before sending another message in this chat (caused by ForwardMessagesRequest)
+2024-05-14 14:47:46,344 - INFO - Фото с ID 5 успешно отправлено в Продаж Реклами | Біржа UA.
+2024-05-14 14:47:47,283 - INFO - Ошибка при доступе к каналу или чату https://t.me/+AGw4eJxnFbA4NDNi: The chat the user tried to join has expired and is not valid anymore (caused by CheckChatInviteRequest)
+2024-05-14 14:47:47,676 - INFO - Фото с ID 5 успешно отправлено в Продавайко.
+2024-05-14 14:47:47,805 - INFO - Необходимо подождать 2987 секунд прежде чем отправить следующее сообщение в Чиста біржа.
+2024-05-14 14:47:47,806 - INFO - Ошибка при доступе к каналу или чату https://t.me/UkrTG_ads/49787: Cannot find any entity corresponding to "https://t.me/UkrTG_ads/49787"
+2024-05-14 14:47:47,806 - INFO - Ошибка при доступе к каналу или чату https://t.me/UkrTG_ads/45185: Cannot find any entity corresponding to "https://t.me/UkrTG_ads/45185"
+2024-05-14 14:47:47,806 - INFO - Ошибка при доступе к каналу или чату https://t.me/UkrTG_ads/45199: Cannot find any entity corresponding to "https://t.me/UkrTG_ads/45199"
+2024-05-14 14:47:47,806 - INFO - Ошибка при доступе к каналу или чату https://t.me/UkrTG_ads/60595: Cannot find any entity corresponding to "https://t.me/UkrTG_ads/60595"
+2024-05-14 14:47:48,075 - INFO - Фото с ID 5 успешно отправлено в Українська біржа реклами.
+2024-05-14 14:47:48,421 - INFO - Фото с ID 5 успешно отправлено в ЛУК — Лучшие украинские каналы.
+2024-05-14 14:47:48,741 - INFO - Фото с ID 5 успешно отправлено в Українська Біржа | Продаж Реклами UA.
+2024-05-14 14:47:48,862 - INFO - Ошибка при доступе к каналу или чату https://t.me/UkrTG_ads: RPCError 400: TOPIC_CLOSED (caused by ForwardMessagesRequest)
+2024-05-14 14:47:49,405 - INFO - Got difference for account updates
+2024-05-14 14:50:28,571 - INFO - скрипт закончил работу
+2024-05-14 14:50:28,578 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-05-14 14:50:28,621 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-05-14 14:50:29,320 - INFO - Ошибка при доступе к каналу или чату https://t.me/reklama_ResourceNET/84968: Cannot find any entity corresponding to "https://t.me/reklama_ResourceNET/84968"
+2024-05-14 14:51:04,111 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-05-14 14:51:04,112 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
