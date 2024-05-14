@@ -60,7 +60,7 @@ async def main():
                 except Exception as e:
                     logging.info(f'Ошибка при доступе к каналу или чату {target_chat_url}: {e}')
                 
-                
+                await asyncio.sleep(1)  # Задержка перед отправкой следующего сообщения
 
             await asyncio.sleep(3600)  # Задержка перед следующим циклом
             
