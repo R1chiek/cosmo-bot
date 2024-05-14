@@ -203,3 +203,8 @@
 2024-05-14 14:59:26,945 - INFO - Got difference for channel 1603938254 updates
 2024-05-14 15:01:16,955 - INFO - Got difference for channel 1603938254 updates
 2024-05-14 15:01:55,315 - INFO - Got difference for account updates
+2024-05-14 15:21:18,369 - INFO - скрипт закончил работу
+2024-05-14 15:21:18,369 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-05-14 15:21:18,414 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-05-14 15:21:19,079 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-05-14 15:21:19,079 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
