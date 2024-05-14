@@ -222,3 +222,8 @@
 2024-05-14 15:28:44,909 - INFO - Ошибка при доступе к каналу или чату https://t.me/reklama_ResourceNET/84968: Cannot find any entity corresponding to "https://t.me/reklama_ResourceNET/84968"
 2024-05-14 15:30:27,189 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
 2024-05-14 15:30:27,189 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-05-14 15:30:29,039 - INFO - скрипт закончил работу
+2024-05-14 15:30:29,042 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-05-14 15:30:29,086 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-05-14 15:30:29,489 - INFO - Ошибка при доступе к каналу или чату https://t.me/reklama_ResourceNET/84968: Cannot find any entity corresponding to "https://t.me/reklama_ResourceNET/84968"
+2024-05-14 15:30:29,489 - INFO - Ошибка при доступе к каналу или чату : Cannot find any entity corresponding to ""
