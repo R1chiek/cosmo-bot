@@ -189,3 +189,17 @@
 2024-05-14 14:51:06,099 - INFO - Ошибка при доступе к каналу или чату https://t.me/reklama_ResourceNET/84968: Cannot find any entity corresponding to "https://t.me/reklama_ResourceNET/84968"
 2024-05-14 14:51:22,146 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
 2024-05-14 14:51:22,147 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-05-14 14:51:23,927 - INFO - скрипт закончил работу
+2024-05-14 14:51:23,930 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-05-14 14:51:23,972 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-05-14 14:51:24,329 - INFO - Ошибка при доступе к каналу или чату https://t.me/reklama_ResourceNET/84968: Cannot find any entity corresponding to "https://t.me/reklama_ResourceNET/84968"
+2024-05-14 14:57:40,105 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2024-05-14 14:57:40,106 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2024-05-14 14:57:41,824 - INFO - скрипт закончил работу
+2024-05-14 14:57:41,827 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2024-05-14 14:57:41,870 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2024-05-14 14:57:42,270 - INFO - Ошибка при доступе к каналу или чату с ID 84968: Could not find the input entity for PeerUser(user_id=84968) (PeerUser). Please read https://docs.telethon.dev/en/stable/concepts/entities.html to find out more details.
+2024-05-14 14:59:26,311 - INFO - Got difference for account updates
+2024-05-14 14:59:26,945 - INFO - Got difference for channel 1603938254 updates
+2024-05-14 15:01:16,955 - INFO - Got difference for channel 1603938254 updates
+2024-05-14 15:01:55,315 - INFO - Got difference for account updates
